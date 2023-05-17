@@ -1,0 +1,36 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 10rem;
+    font-size: 1.5rem;
+    color: var(--font-color);
+}
+
+.text-home {
+    transition: .5s;
+}
+
+.text-home:hover {
+    transform: scale(1.2);
+    color: var(--primary-color);
+}
+
+.text-quem-somos {
+    transition: .5s;
+}
+
+.text-quem-somos:hover {
+    transform: scale(1.2);
+    color: var(--primary-color);
+}
+
+.text-contato {
+    transition: .5s;
+}
+
+.text-contato:hover {
+    transform: scale(1.2);
+    color: var(--primary-color);
+}

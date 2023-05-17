@@ -1,0 +1,94 @@
+.home {
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns:
+    50% 50%;
+    background-image: url(../img/background-home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15rem;
+}
+
+h1 {
+    width: 0;
+    padding: 1rem;
+    padding-left: 20rem;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+h3 {
+    width: 45rem;
+    padding-left: 20rem;
+    font-size: 1.5rem;
+    color: var(--font-color);
+}
+
+.container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 17rem;
+}
+
+.contato {
+    width: 28rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+h2 {
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.button-whatsapp {
+    width: 15rem;
+    height: 3.5rem;
+    display: flex;
+    padding-top: .8rem;
+    padding-left: 1rem;
+    border: none;
+    background-color: #46A61E;
+}
+
+.fa-whatsapp {
+    font-size: 2rem;
+    color: var(--font-color);
+}
+
+.text-whatsapp {
+    padding-top: .4rem;
+    padding-left: .8rem;
+    font-size: 1.2rem;
+    color: var(--font-color);
+}
+
+input {
+    width: 24rem;
+    height: 3rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.button-fala-conosco {
+    width: 20rem;
+    height: 3.5rem;
+    margin-top: 2rem;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--font-color);
+    background-color: var(--primary-color);
+}
